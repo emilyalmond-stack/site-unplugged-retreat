@@ -97,11 +97,16 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: auto;
 }
 
 header nav {
@@ -109,11 +114,19 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
+  padding: 15px 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -139,6 +152,11 @@ footer .social-icons p {
   flex-flow: row wrap;
 }
 
+.hero-area .content-wrapper {
+    width: 83%;
+    padding-top: 55px;
+    padding-bottom: 330px;
+}
 
 /* aside area */
 
@@ -147,6 +165,18 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+aside .content-wrapper .form-description {
+  padding-top: 30px;
+}
+
+aside .content-wrapper .form-description p {
+  padding-top: 15px;
+}
+
+aside .form {
+  padding-top: 40px;
 }
 
 
@@ -158,11 +188,27 @@ aside {
   flex-flow: row wrap;
 }
 
+.features .content-wrapper {
+  padding-top: 50px;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features .article {
+  width: 45%
+}
+
+.features .fontawesome-icon {
+  padding-top: 65px;
+}
+
+.features .features-item-description {
+  padding-top: 40px;
 }
 
 
@@ -172,6 +218,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 45%;
 }
 
 
