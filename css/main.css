@@ -87,6 +87,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles - add here so you can override them further down
+- these styles apply unless there's an exception*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+}
+
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+p {
+
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+
+}
+
+.content-wrapper {
+
+}
 /* ------------------- Base Header - Footer Styles -----------------*/
 
 header,
