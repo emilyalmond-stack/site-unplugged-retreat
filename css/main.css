@@ -522,34 +522,50 @@ faq h2 {
 
   /* Hero Area */
 .hero-area h1 {
-  width: 53%;
+  width: 60%;
 }
 
 /* Aside */
 aside .content-wrapper {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 65%;
+  width: 30%;
 }
 
 /* Features */
 .features h2 {
-  width: 65%;
+  width: 90%;
 }
 
 .features article {
-  flex-basis: 180px;
+  flex-basis: 33%;
 }
 
 /* Reviews */
 .reviews article div {
-  width: 80%;
+  width: 42%;
 }
 
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+  }
+
+  /* ==========================================================================
+     FAQ Page
+     ========================================================================== */
+
+.faq h2 {
+  width: 100%;
 }
+
 
 /* ==========================================================================
    Print styles.
