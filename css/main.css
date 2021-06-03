@@ -131,11 +131,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -147,9 +147,6 @@ address {
   margin: 50px 0;
 }
 
-img {
-  width: 100%;
-}
 
 /* ------------------- Base Header - Footer Styles -----------------*/
 
@@ -172,6 +169,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -244,6 +249,10 @@ footer .copyright {
 /* hero area */
 
 .hero-area {
+  background: url('../img/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -297,6 +306,9 @@ input [type=button] {
 /* features area */
 
 .features {
+  background: url('../img/features-background.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -509,6 +521,10 @@ input [type=button] {
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
